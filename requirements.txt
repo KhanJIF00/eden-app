@@ -1,5 +1,15 @@
+# Core dependencies
 streamlit==1.47.0
 pandas==2.3.1
 numpy==2.3.1
 matplotlib==3.8.4
 seaborn==0.13.2
+fpdf==1.7.2
+tempfile2==0.8.0  # 'tempfile' is part of Python's stdlib; tempfile2 is sometimes useful
+
+# Forecasting & ML
+prophet==1.1.5
+scikit-learn==1.4.2
+
+# Plotting & Visualization
+plotly==5.22.0
